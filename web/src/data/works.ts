@@ -65,6 +65,7 @@ export const WORKS: Record<WorkLanguage, WorksLang> = {
             "name": "AI教育产品市场推广与活动执行",
             "meta": "AI Education Product Marketing & Campaign Execution",
             "slug": "ai-education-partnership",
+            "link": `${import.meta.env.BASE_URL}projects/ai-education-partnership/case_study.html`,
             "tags": [
               "用户洞察：整理100+条反馈，识别需求与使用障碍",
               "产品传播：输出30+篇指南、FAQ、教程及场景案例",
@@ -84,6 +85,7 @@ export const WORKS: Record<WorkLanguage, WorksLang> = {
             "name": "AI资讯产品用户洞察与品牌推广",
             "meta": "AI Information Product Insights & Brand Promotion",
             "slug": "ai-news-dashboard",
+            "link": `${import.meta.env.BASE_URL}projects/ai-news-dashboard/case_study.html`,
             "tags": [
               "需求调研：用户反馈与价格问卷，规划分阶段沟通",
               "品牌内容：100+条内容，协助达人筛选与上线跟踪",
@@ -103,6 +105,7 @@ export const WORKS: Record<WorkLanguage, WorksLang> = {
             "name": "ZUS Coffee新品上市与渠道传播",
             "meta": "ZUS Coffee Product Launch & Channel Communication",
             "slug": "zus-everywhere",
+            "link": `${import.meta.env.BASE_URL}projects/zus-everywhere/case_study.html`,
             "tags": [
               "新品调研：结合消费者偏好与竞品内容提炼卖点",
               "社媒执行：50条Instagram内容，拍摄剪辑与英文文案",
@@ -136,6 +139,7 @@ export const WORKS: Record<WorkLanguage, WorksLang> = {
             "name": "AI Education Product Marketing & Campaign Execution",
             "meta": "Research, Product Communication & University Promotion",
             "slug": "ai-education-partnership",
+            "link": `${import.meta.env.BASE_URL}projects/ai-education-partnership/case_study.html`,
             "tags": [
               "Insights: classified 100+ feedback items to identify needs and barriers",
               "Communication: 30+ guides, FAQs, tutorials and use cases",
@@ -155,6 +159,7 @@ export const WORKS: Record<WorkLanguage, WorksLang> = {
             "name": "AI Information Product Insights & Brand Promotion",
             "meta": "From User Needs to Content, Campaigns & Performance Review",
             "slug": "ai-news-dashboard",
+            "link": `${import.meta.env.BASE_URL}projects/ai-news-dashboard/case_study.html`,
             "tags": [
               "Research: user feedback and pricing surveys informed messages by user stage",
               "Content: 100+ posts plus creator screening and launch tracking",
@@ -174,6 +179,7 @@ export const WORKS: Record<WorkLanguage, WorksLang> = {
             "name": "ZUS Coffee Product Launch & Channel Communication",
             "meta": "New-Product Messages, Instagram & Retail Communication",
             "slug": "zus-everywhere",
+            "link": `${import.meta.env.BASE_URL}projects/zus-everywhere/case_study.html`,
             "tags": [
               "Research: consumer preferences and competitor content shaped launch messages",
               "Content: 50 Instagram posts, shooting, editing and English copy",

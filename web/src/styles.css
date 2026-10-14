@@ -1047,8 +1047,9 @@ canvas {
   color: rgba(244, 241, 234, 0.62);
 }
 
-/* 整行按钮：标题靠左、明确操作提示靠右；hover 暖色微缩进 */
+/* 整行项目入口：标题靠左、明确操作提示靠右；hover 暖色微缩进 */
 .wk-line-btn {
+  text-decoration: none;
   position: relative;
   display: flex;
   align-items: center;
@@ -1684,3 +1685,6 @@ canvas {
 .resume-skills ul { list-style: none; padding: 0; display: grid; gap: 14px; }
 .resume-skills li { font-size: 14px; line-height: 1.7; color: rgba(244,241,234,.92); }
 @media(max-width: 640px) { .resume-skills { width: 100%; margin: 0 auto; padding: 22px 20px; } }
+
+.wk-card-cover:focus-visible { outline: 2px solid #ffd9b3; outline-offset: 4px; }
+.wk-card-cover:hover { border-color: #ffd9b3; }
